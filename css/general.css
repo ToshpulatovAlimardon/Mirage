@@ -36,7 +36,7 @@
         margin-bottom: 29px;
         display: inline-block;
     }
-    .header .header-des span::before {
+    .header .header-des span::before:not(.blog-item h2) {
         content: "";
         display: inline-block;
         width: 36px;
@@ -45,7 +45,7 @@
         margin-right: 3px;
         border-radius: 100px;
     }
-    .header .header-des h1 {
+    .header .header-des h2 {
         font-weight: 700;
         font-size: 64px;
         line-height: 74px;
@@ -78,6 +78,18 @@
         left: calc(0px - 9%);
         top: 365px;
         background-image: url("../images/header/Bloobs.svg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        z-index: -1;
+        overflow: hidden;
+    }
+    .header .header-img .bg-three{
+        width: 216.98px;
+        height: 431.25px;
+        position: absolute;
+        right: calc(0px - 8.8%);
+        top: 365px;
+        background-image: url("../images/header/Bloobs.png");
         background-repeat: no-repeat;
         background-size: cover;
         z-index: -1;
@@ -146,3 +158,27 @@
             width: 7px;
             
         }
+/* Blog */
+.blog-item {
+    margin-top: 200px;
+}
+.blog-item img {
+    margin-right: 80px;
+}
+.blog-item span {
+    margin-bottom: 15px!important;
+}
+.blog-item h2 {
+    margin-bottom: 24px!important;
+}
+.blog-item h2 {
+    font-size: 52px!important;
+    line-height: 62px!important;
+}
+/* Advertising */
+.advertising {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 50px auto;
+}
