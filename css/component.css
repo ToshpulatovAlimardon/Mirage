@@ -4,6 +4,7 @@
     padding: 0;
     box-sizing: border-box;
     outline: none;
+    font-style: normal;
 }
 /* Container */
 .container {
@@ -45,4 +46,25 @@ a {
 }
 .btn img {
     width: 43px;
+}
+/* Section */
+section {
+    margin-top: 190px;
+}
+/* Section title */
+.section-title span {
+    font-weight: 500;
+    font-size: 28px;
+    color: #F78CB6;
+    margin-bottom: 6px;
+}
+.section-title h2 {
+    font-weight: 700;
+    font-size: 52px;
+    color: #56597A;
+    margin-bottom: 58px;
+}
+/* Text align */
+.text-center {
+    text-align: center;
 }

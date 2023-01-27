@@ -59,17 +59,90 @@
         color: #919299;
         margin-bottom: 42px;
     }
-    .header .header-img span{
+    .header .header-img .bg-one{
         width: 1019.64px;
         height: 936.3px;
         position: absolute;
-        right: calc(0px - 10%);
+        right: calc(0px - 8%);
         top: -165px;
         background-image: url("../images/header/Group\ 32.svg");
         background-repeat: no-repeat;
         background-size: cover;
         z-index: -1;
+        overflow: hidden;
+    }
+    .header .header-img .bg-two{
+        width: 150px;
+        height: 631.32px;
+        position: absolute;
+        left: calc(0px - 9%);
+        top: 365px;
+        background-image: url("../images/header/Bloobs.svg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        z-index: -1;
+        overflow: hidden;
     }
     .header .header-img img {
         width: 532px;
     }
+/* Services */
+.services .services_content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 -15px;
+}
+    .services .services_content .services_item {
+        padding: 56px 23px 23px;
+        text-align: center;
+        background: #FFF1F9;
+        border-radius: 8px;
+        margin:0 15px;
+        box-shadow: 10px 10px 20px rgba(204, 204, 204, 0.2);
+    }
+    .services .services_content .services_item img:not(.services-btn img) {
+        width: 43px;
+        margin-bottom: 42px;
+    }
+    .services .services_content .services_item h3 {
+        font-weight: 500;
+        font-size: 34px;
+        line-height: 72px;
+        color: #56597A;
+    }
+    .services .services_content .services_item p {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        color: #919299;
+        margin-bottom: 20px;
+    }
+    .services .services_content .services_item:nth-child(3) {
+        background: #F78CB6;
+        color: #fff;
+        box-shadow: 10px 10px 20px rgba(250, 141, 184, 0.2);
+    }
+    .services .services_content .services_item:nth-child(3) h3 {
+        color: #fff;
+    }
+    .services .services_content .services_item:nth-child(3) p {
+        color: #fff;
+    }
+        .services .services_content .services_item .services-btn {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            cursor: pointer;
+        }
+        .services .services_content .services_item .services-btn span {
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 30px;
+            color: #fff;
+            margin-right: 8px;
+        }
+        .services .services_content .services_item .services-btn img {
+            width: 7px;
+            
+        }
