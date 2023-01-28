@@ -183,3 +183,67 @@
     margin: 50px auto;
     cursor: pointer;
 }
+/* Subscribe */
+.subscribe {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-bottom: 160px;
+}
+    .subscribe .subscribe-des {
+        text-align: center;
+        margin-top: 50px;
+    }
+        .subscribe .subscribe-des h3 {
+            font-weight: 700;
+            font-size: 52px;
+            line-height: 72px;
+            color: #56597A;
+            margin-bottom: 18px;
+        }
+        .subscribe .subscribe-des p {
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 32px;
+            color: #919299;
+            margin-bottom: 25px;
+        }
+    .subscribe img:first-child {
+        position: absolute;
+        top: 0;
+        left: -10%;
+    }
+    .subscribe img:last-child:not(.btn img) {
+        position: absolute;
+        top: 0;
+        right: -8.8%;
+    }
+    /* Subscribe mail */
+    .subscribe .subscribe-mail {
+        width: 706px;
+        border-radius: 4px;
+        box-shadow: 5px 5px 20px 5px rgba(205, 205, 205, 0.25);
+        background: #fff;
+    }
+    .subscribe .subscribe-mail label {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 14px 14px 14px 23px;
+    }
+        .subscribe .subscribe-mail input  {
+            background-color: transparent;
+            border: none;
+            width: 100%;
+            vertical-align: middle;
+            padding: 22px;
+            font-weight: 400;
+            font-size: 20px;
+            color: #D2D2D2;
+        }
+        .subscribe .subscribe-mail input::placeholder  {
+            font-weight: 400;
+            font-size: 20px;
+            color: #D2D2D2;
+        }
