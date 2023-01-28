@@ -247,3 +247,76 @@
             font-size: 20px;
             color: #D2D2D2;
         }
+/* Footer */
+.footer {
+    background-image: url("../images/footer/bg1.png"), url("../images/footer/bg2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+} 
+    /* Footer top */
+    .footer-top {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 64px;
+    }
+        .footer-top .footer-social img:not(.footer-social-item img) {
+            width: 127px;
+            margin-bottom: 38px;
+        }
+        .footer-top .footer-social p {
+            font-weight: 400;
+            font-size: 20px;
+            color: #919299;
+            margin-bottom: 7px;
+        }
+        .footer-top .footer-social h4 {
+            font-weight: 700;
+            font-size: 20px;
+            color: #919299;
+            margin: 38px auto 16px;
+        }
+        .footer-top .footer-social .footer-social-item {
+            display: flex;
+            align-items: center;
+        }
+            .footer-top .footer-social .footer-social-item img{
+                width: 41px;
+                margin-right: 11px;
+                cursor: pointer;
+
+            }
+        /* footer nav */
+        .footer-top .footer-nav h3 {
+            font-weight: 500;
+            font-size: 24px;
+            color: #56597A;
+            margin-bottom: 37px;
+        }
+        .footer-top .footer-nav a {
+            font-weight: 400;
+            font-size: 20px;
+            color: #919299;
+            display: block;
+            margin-bottom: 25px;
+            transition: all .3s ease;
+        }
+        .footer-top .footer-nav a:hover,
+        .footer-top .footer-nav a:focus {
+            color: #1c1c1c;
+        }
+    /* footer bottom */
+    .footer-bottom {
+        background: #F78CB6;
+    }
+        .footer-bottom .footer-bottom-content {
+            padding: 12px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+            .footer-bottom .footer-bottom-content a {
+                font-weight: 450;
+                font-size: 14px;
+                color: #FFFFFF;
+            }

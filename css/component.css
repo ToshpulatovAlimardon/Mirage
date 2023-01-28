@@ -5,6 +5,7 @@
     box-sizing: border-box;
     outline: none;
     font-style: normal;
+    scroll-behavior: smooth;
 }
 /* Container */
 .container {
